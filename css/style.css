@@ -12,32 +12,45 @@ body {
 .section div > h1 {
     font-family: 'Roboto Mono', monospace;
     font-size: 5em;
-    font-family: arial,helvetica;
     color: #fff;
     margin:0;
     padding:0;
-    text-shadow: 2px 2px #666;
+    text-shadow: 3px 2px 5px #666;
 }
 
 .section div > h2 {
     font-family: 'Roboto Mono', monospace;
     font-size: 3em;
-    font-family: arial,helvetica;
     color: #fff;
-    margin:0;
+    margin: -25% 0 0 0;
     padding:0;
-    text-shadow: 2px 2px #666;
+    text-shadow: 3px 2px 5px #666;
 }
 
-.section div > p{
-    font-family: 'Roboto Mono', monospace;
+.section div > p {
     color: #fff;
-    text-shadow: 2px 2px #666;
+    text-shadow: 2px 1px #666;
     padding: 0 10% 0 10%;
 }
 
-.section div h2 {
-    margin-top: -25%;
+.section div > ul {
+    color: #fff;
+    text-shadow: 2px 1px #666;
+    list-style-type: none; /*Removes bullet point*/
+}
+
+.section div.intro > p {
+    font-size: 1.75em;
+}
+
+.section div.work > p {
+    margin: 0 10% 0 10%;
+}
+
+.section div > p.important-note {
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
 }
 
 /*Individual slides backgrounds*/
@@ -66,14 +79,14 @@ body {
     max-height: 100%;
 }
 
-#header, #footer {
+#footer {
     position:fixed;
     height: 4%;
     display:block;
     width: 100%;
     background: #333;
     z-index: 9;
-    text-align:center;
+    text-align: center;
     color: #f2f2f2;
     padding: 1% 0 0 0;
 }
@@ -82,12 +95,16 @@ body {
     bottom: 0px;
 }
 
-#footer a {
+a {
     color: #fff;
     font-weight: bold;
 }
 
-#footer a:visited {
+a:hover {
+    color: #555;
+}
+
+a:visited {
     color: #fff;
     font-weight: bold;
 }
