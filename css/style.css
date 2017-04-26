@@ -36,8 +36,8 @@ body {
     padding: 0 10% 0 10%;
 }
 
-.section div {
-    padding: -2% 0 0 0;
+.section div h2 {
+    margin-top: -25%;
 }
 
 /*Individual slides backgrounds*/
