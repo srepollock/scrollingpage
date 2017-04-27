@@ -48,9 +48,35 @@ body {
 }
 
 .section div > p.important-note {
+    font-size: 0.8em;
     font-style: italic;
     font-weight: bold;
     margin: 0;
+}
+
+/*Different Colored Section Banners*/
+
+.section div.bg-white {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.section div.bg-white > h2 {
+    color: rgba(30, 30, 30, 1) !important;
+}
+
+.section div.bg-white > p {
+    color: #000 !important;
+    padding-bottom: 2%;
+}
+
+.section div.bg-black {
+    background-color: rgba(110, 110, 110, 0.5);
+}
+
+/*No need to change the header color here as it's just white*/
+
+.section div.bg-black > p {
+    padding-bottom: 2%;
 }
 
 /*Individual slides backgrounds*/
