@@ -1,6 +1,8 @@
 $(document).ready(function() {
 			$('#fullpage').fullpage({
         navigation: true,
-				navigationPosition: 'right',
+				// navigationPosition: 'right',
+                anchors: ['home', 'about', 'work', 'contact'],
+                menu: '#menu',
       });
 });
